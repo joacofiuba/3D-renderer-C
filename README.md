@@ -6,5 +6,8 @@ It follows basically the same logic, but implemented in C using SDL2.
 
 All the functions that perform linear transformations, vector normalization, and draw the wireframe are implemented from scratch, using only an SDL surface context and `SDL_Rect` structures to manipulate pixels on the screen.
 
+To compile the project, run:
+`gcc -o cubo  cubo.c `sdl2-config --cflags --libs` -lm`
+
 ## Tsoding's video
 https://www.youtube.com/watch?v=qjWkNZ0SXfo
